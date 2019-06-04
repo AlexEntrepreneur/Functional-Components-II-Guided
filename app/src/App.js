@@ -1,5 +1,5 @@
 import React from 'react';
-import HogwartsStudents from './components/HogwartsStudents/Students';
+import HogwartsStudents from './components/HogwartsStudents/HogwartsStudents';
 
 function App() {
   return (
