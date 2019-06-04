@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Student() {
-    return 'Individual Student!'
+function Student(props) {
+    return 'Individual Student!';
 }
 
 export default Student;

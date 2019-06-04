@@ -1,9 +1,10 @@
 import React from 'react';
+import Student from './Student';
 import { HarryProfile } from './students-data';
 
 function HogwartsStudents() {
    return (
-      <Student />
+      <Student student={ HarryProfile }/>
    ); 
 }
 
