@@ -3,7 +3,7 @@ import { HarryProfile } from './students-data';
 
 function HogwartsStudents() {
    return (
-      <Students />
+      <Student />
    ); 
 }
 
