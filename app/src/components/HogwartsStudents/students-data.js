@@ -1,4 +1,4 @@
-const students =  
+export const students =  
 [{
   name: 'Harry Potter',
   identity: 'The Chosen One',
