@@ -3,7 +3,7 @@ import React from 'react';
 function Student(props) {
     return (
         <div className="student-card">
-            <img src={ props.student.img } />
+            <img src={ props.student.img } alt={ props.student.name }/>
             <div className="student-info">
                 <h1><strong>Name: </strong>{props.student.name}</h1>
                 <p><strong>Age: </strong>{props.student.age}</p>

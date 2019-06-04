@@ -1,6 +1,6 @@
 import React from 'react';
 import Student from './Student';
-import { students  } from './students-data';
+import { students } from './students-data';
 
 
 function HogwartsStudents() {
