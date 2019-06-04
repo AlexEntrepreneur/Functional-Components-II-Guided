@@ -7,7 +7,11 @@ function HogwartsStudents() {
    return (
       <>
        {
-
+          students.map((lemon, index) => (
+            lemon.name === 'Harry Potter'
+             ? <Student student={lemon} key={index} />
+             : null
+          ))
        }
       </>
    ); 
